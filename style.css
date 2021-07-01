@@ -1,0 +1,50 @@
+section{
+  padding: 50px 0;
+}
+
+.carousel-inner{
+  width: 100%;
+  height: 380px;
+}
+
+.my-carousel-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+
+.my-carousel-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+footer a{
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+footer a:hover{
+  color: #fff !important;
+}
+.navbar-toggler{
+  outline: none;
+  border:none;
+}
+
+
+.navbar-light .navbar-toggler-icon{
+  background-image: url('./menu.png')!important;
+
+}
+
+@media only screen and (max-width: 600px) {
+  p.my-p{
+    text-align-last: center;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
