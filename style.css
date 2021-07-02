@@ -4,7 +4,10 @@ section{
 
 .carousel-inner{
   width: 100%;
-  height: 380px;
+  height: 390px;
+}
+.btn-info, .navbar-dark{
+  background: linear-gradient(to right, #0DCAF0, #1cefff);
 }
 
 .my-carousel-image{
@@ -36,11 +39,29 @@ footer a:hover{
 }
 
 
-.navbar-light .navbar-toggler-icon{
+.navbar-dark .navbar-toggler-icon{
   background-image: url('./menu.png')!important;
 
 }
 
+.footer{
+  background: linear-gradient(to right, #0DCAF0, #1cefff);
+}
+
+#about-us-section{
+  background: linear-gradient(to right, #0DCAF0, #1cefff);
+  color: #fff;
+  padding: 0;
+  margin-top: -8%;
+}
+
+section.footer{
+  padding: 0;
+}
+
+footer{
+  margin-top: -3%;
+}
 @media only screen and (max-width: 600px) {
   p.my-p{
     text-align-last: center;
